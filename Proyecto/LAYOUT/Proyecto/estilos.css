@@ -116,7 +116,8 @@ header .cab
 }
 .main article ul 
 { 
-	margin-bottom: 20px;
+
+	margin-bottom: 10px;
 	font-size: 16px;
 	line-height: 27px;
 	font-family:ubuntu;
@@ -124,32 +125,37 @@ header .cab
 aside {
 	font-family:ubuntu;
 	width: 30%;
-	background: #58ACFA;
-	padding: 20px;
+	background: #ffffff;
+	padding: 0px;
 	display: flex;
 	flex-direction:column;
 	flex-wrap:wrap;
 	justify-content:space-between;
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 27px;
 	
 }
 
+aside .ad .lista li {
+
+	margin-left: 20px;
+	text-align: left;
+}
 
 aside .ad {
-	width: 100%;
-	height: 47%;
+	width: auto;
 	font-size: 16px;
 	color: rgb(255, 255, 255);
+	background:#0363bd;
 	padding: 10px 10px;
-	margin-bottom: 10px;
-	background:#58ACFA;
-	
+	margin-bottom: 5px;
 }
+
 
 aside #foto 
 {
-	width: 92%;
-	height: 100px;
-	justify-content: center;
+	width: 220px;
 }
 
 
